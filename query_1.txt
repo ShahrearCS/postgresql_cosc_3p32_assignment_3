@@ -1,5 +1,1 @@
- create table customer(cid integer PRIMARY KEY, cname CHAR(80), address CHAR(200));
- create table book(isbn CHAR(13) PRIMARY KEY, title CHAR(80), author CHAR(80),qtyinstock integer, price REAL);
- create table orders(ordernum integer,cid integer REFERENCES customer ON DELETE CASCADE, order_date DATE, cardnum CHAR(16), PRIMARY KEY (ordernum,cid));
- create table orderlist(ordernum integer REFERENCES orders ON DELETE CASCADE, isbn CHAR(13) REFERENCES book ON DELETE CASCADE, qty integer, ship_date DATE, PRIMARY KEY(ordernum,isbn));
- 
+
