@@ -1,0 +1,1 @@
+insert into book value('9780517056882', 'Tom and Jerry: 50 Years of Cat and Mouse','TR, Adams','4', '209.99');
