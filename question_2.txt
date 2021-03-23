@@ -1,0 +1,1 @@
+insert into book value('0000136006329', 'Operating Systems: Internals and Design Principles','Sallings, William','3', '89.99');
