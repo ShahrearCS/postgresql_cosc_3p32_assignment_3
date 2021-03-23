@@ -1,1 +1,1 @@
-
+SELECT c.cid, c.cname, c.address FROM customer c WHERE c.cname='Luke Skywalker'
