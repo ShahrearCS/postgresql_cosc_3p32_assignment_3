@@ -1,1 +1,1 @@
-SELECT c.cid, FROM orders or,customer c,orderlist o WHERE or.isbn=o.isbn AND or.cid=c.cid GROUP BY c.cid HAVING COUNT>*1;
+SELECT c.cid FROM orders or,customer c,orderlist o WHERE or.isbn=o.isbn AND or.cid=c.cid GROUP BY c.cid HAVING COUNT>*1;
