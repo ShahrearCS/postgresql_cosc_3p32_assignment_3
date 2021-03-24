@@ -1,0 +1,1 @@
+SELECT b.title, FROM book b,customer c ,orderlist o WHERE o.isbn=b.isbn AND c.cname='John Doe';
