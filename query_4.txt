@@ -1,0 +1,1 @@
+SELECT c.name FROM orders or,customer c WHERE  or.cid!=c.cid;
